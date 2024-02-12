@@ -1,0 +1,20 @@
+JavaInheritance.Inheritance in Java is when a child class inherits the properties of the parent class. There are certain types of inheritance in Java as mentioned below:
+
+
+Single JavaInheritance.Inheritance
+Multilevel JavaInheritance.Inheritance
+Hierarchical JavaInheritance.Inheritance
+Multiple JavaInheritance.Inheritance
+Hybrid JavaInheritance.Inheritance
+
+
+*The extends keyword indicates that you are making a new class that derives from an existing class. The meaning of "extends" is to increase the functionality.
+*JavaInheritance.Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+
+Multiple JavaInheritance.Inheritance is not supported in JAVA:
+Diamond Problem:
+
+Consider a scenario where A, B, and C are three classes. The C class inherits A and B classes. If A and B classes have the same method and you call it from child class object, there will be ambiguity to call the method of A or B class.
+
+-> errors at compile time.
