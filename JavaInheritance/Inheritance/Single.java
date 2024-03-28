@@ -2,12 +2,22 @@ package JavaInheritance.Inheritance;
 
 public class Single {
 
+
+     Single(){
+
+         System.out.println("super class");
+     }
+
     public void func(){
         System.out.println("Single JavaInheritance.Inheritance");
     }
 }
 
 class SubSingle extends  Single{
+
+    SubSingle(){
+        System.out.println("Sub class");
+    }
 
     public void funcSub(){
         System.out.println("Single JavaInheritance.Inheritance sub");
